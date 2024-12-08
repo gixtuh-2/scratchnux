@@ -1,0 +1,9 @@
+clear
+echo Hello
+sleep 1
+root true
+hostname set user
+sleep 0.1
+clear
+bash
+echo Welcome back, $HOST!
