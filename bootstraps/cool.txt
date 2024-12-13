@@ -1,10 +1,6 @@
 clear
 echo Hello!
 sleep 1
-clear
 bash
-sleep 1
-root true
-hostname set user
-wait 1
+clear
 echo Welcome back, $HOST!
