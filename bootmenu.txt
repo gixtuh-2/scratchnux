@@ -1,0 +1,9 @@
+=> bootmenu
+clear
+echo bootmenu
+prompt Select file to boot from(enter "-" to boot from nothing)
+ifeq $ANS - true false
+iflast true bash
+seefile $ANS
+iflast true exec $ANS
+iflast false exec *boot

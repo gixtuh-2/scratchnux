@@ -1,6 +1,0 @@
-clear
-echo Hello!
-sleep 1
-bash
-clear
-echo Welcome back, $HOST!
