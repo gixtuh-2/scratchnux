@@ -1,4 +1,6 @@
 => bootmenu
+root true
+hostname set $__H1
 clear
 echo bootmenu
 prompt Select file to boot from(enter "-" to boot from nothing)
